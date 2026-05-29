@@ -153,7 +153,7 @@ Single 3D Observation</h1>
             supervision, multi-frame inputs, or CAD templates, and still struggle to disentangle geometry from articulation 
             or to recover explicit joint parameters. We propose SCAPO, a self-supervised framework that estimates canonical geometry, 
             rigid part segmentation, and joint pivots, axes, and articulation states from a single RGB-D observation without ground-truth labels 
-            or category-specific models. Our SCAPO first uses an $\operatorname{SE}(3)$-equivariant vector-neuron autoencoder to factor out global pose 
+            or category-specific models. Our SCAPO first uses an SE(3)-equivariant vector-neuron autoencoder to factor out global pose 
             and align diverse instances into a shared canonical space. On this aligned shape, a joint-aware blend-skinning module is then designed 
             to model part motion. We learn this representation through cycle reconstruction between observed and canonical shapes and cross-space 
             alignment with a learnable canonical template that decouples shared category geometry from instance-specific residual shape. Experiments on synthetic 
