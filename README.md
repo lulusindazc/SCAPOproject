@@ -2,13 +2,13 @@
 
 This is the repository that contains source code for the [SCAPO website](https://lulusindazc.github.io/SCAPOproject/).
 
-If you find Get useful for your work please cite:
+If you find SCAPO useful for your work please cite:
 ```
-@inproceedings{zhang2025iaao,
-  title={SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a
-Single 3D Observation},
+@inproceedings{zhang2026scapo,
+  title={SCAPO: Self-Supervised Category-Level Articulated Pose Estimation from a Single 3D Observation},
   author={Zhang, Can and Lee, Gim Hee},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13802--13811},
   year={2026}
 }
 ```
